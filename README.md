@@ -27,7 +27,7 @@ A repository to store and share my implementation of `printf` function. Written 
 
 ## Original purpose
 
-The `ft_printf` project aims to learn the basics of C programming language by recoding a popular function among programmers : `printf`. As a training exercise, it's not perfect but it works. You can find the list below.
+The `ft_printf` project aims to learn the basics of C programming language by recoding a popular function among programmers : `printf`. As a training exercise, it's not perfect but it works.
 
 Some constrains were added to make us use our brain, here is a summary :
 - As many file as we want.
@@ -40,7 +40,7 @@ Some constrains were added to make us use our brain, here is a summary :
 - Imposed compilation flags : `-Wall -Wextra -Werror`
 - The program must not create memory leaks.
 
-42 Subject asked us to implement :
+42's subject asked us to implement :
 - conversions (`%c %d %i %s %p %u %x %X %%`)
 - flags (`-` `0` `.`)
 - bonus flags (`[space]` `+`)
@@ -72,4 +72,4 @@ You can use these commands :
 
 This project has it's own `libft` implementation, slightly different from mine (see [here](https://github.com/Spidfail/libft_extended)). The Makefile compile it automatically.
 
-If you want to compile this Makefile from yours, check [recursion in Makefile](https://www.gnu.org/software/make/manual/html_node/Recursion.html) to learn more.
+If you want to run this Makefile from yours, check [recursion in Makefile](https://www.gnu.org/software/make/manual/html_node/Recursion.html) to learn more.
