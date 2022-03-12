@@ -29,18 +29,18 @@ A repository to store and share my implementation of `printf` function. Written 
 
 The `ft_printf` project aims to learn the basics of C programming language by recoding a popular function among programmers : `printf`. As a training exercise, it's not perfect but it works.
 
-Some constrains were added to make us use our brain, here is a summary :
+Some **constrains** were added to make us use our brain, here is a summary :
 - As many file as we want.
 - A header should list all non-static functions.
 - The keyword `static` must be used prior to auxiliary functions in the same file.
-- It should follow the norm imposed by the school (syntax mostly, 5 functions max per file, 25l maximum per function...)
+- It should follow the norme imposed by the school (syntax mostly, 5 functions max per file, 25l maximum per function...)
 - We cannot use unauthorized functions.
 - Authorized functions : `write()` `malloc()` `free()` `va_arg()` `va_start()` `va_copy()` `va_end()`
 - Imposed Makefile rules like `$(NAME)` or `clean`
 - Imposed compilation flags : `-Wall -Wextra -Werror`
 - The program must not create memory leaks.
 
-42's subject asked us to implement :
+**Implementations** required by 42's project :
 - conversions (`%c %d %i %s %p %u %x %X %%`)
 - flags (`-` `0` `.`)
 - bonus flags (`[space]` `+`)
@@ -59,7 +59,7 @@ About implementation, don't forget the prefix "ft_" to distinguish these functio
 
 ## Compilation
 
-The Makefile will produce a binary called `libftprintf.a` by using `ar` command. Compile/link your project with the binary to be able to use `ft_printf()`.
+The **Makefile** will produce a binary called `libftprintf.a` by using `ar` command. Compile/link your project with the binary to be able to use `ft_printf()`.
 
 You can use these commands :
 - `make`
